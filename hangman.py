@@ -15,11 +15,11 @@ while True:
         if letter in guessed:
             display += letter + " "
         else:
-            display += "_ "
+            display += "__ "
 
     print("\nWord 🙌:", display)
 
-    if "_" not in display:
+    if "__" not in display:
         print("\nCongratulations 🎉! You guessed the word:", word)
         print("Total Attempts:", attempt_count)
         
